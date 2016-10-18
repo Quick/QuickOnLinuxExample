@@ -1,6 +1,9 @@
+import XCTest
 import Quick
 
-QCKMain([
+@testable import SampleLibraryTests
+
+Quick.QCKMain([
     MySpec.self,
     SampleLibrarySpec.self,
 ])

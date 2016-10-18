@@ -1,6 +1,7 @@
+@testable import SampleLibrary
+
 import Quick
 import Nimble
-import SampleLibrary
 
 class SampleLibrarySpec: QuickSpec {
     override func spec() {

@@ -1,11 +1,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "QuickTest",
-    targets: [
-        Target(name: "Spec", dependencies: [.Target(name: "SampleLibrary")]),
-    ],
+    name: "QuickOnLinuxExample",
     dependencies: [
-        .Package(url: "https://github.com/briancroom/Quick.git", majorVersion: 0, minor: 9),
+        .Package(url: "https://github.com/Quick/Quick.git", majorVersion: 1, minor: 1),
+        .Package(url: "https://github.com/Quick/Nimble.git", majorVersion: 7),
     ]
 )
